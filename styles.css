@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cat{
+    width: 100px;
+    cursor: pointer;
+}
+
+.cats-list-box{
+    margin-top: 70px;
+    background-color: #cccccc;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-image{
+    transition-duration: 300ms;
+}
+
+.main-image:hover{
+    transform: scale(1.5);
+}
